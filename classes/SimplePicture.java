@@ -22,7 +22,7 @@ public class SimplePicture implements DigitalPicture
   /**
    * the file name associated with the simple picture
    */
-  private String fileName;
+  public String fileName;
   
   /**
    * the title of the simple picture
@@ -42,7 +42,7 @@ public class SimplePicture implements DigitalPicture
   /** 
    * extension for this file (jpg or bmp)
    */
-  private String extension;
+  public String extension;
   
  
  /////////////////////// Constructors /////////////////////////
